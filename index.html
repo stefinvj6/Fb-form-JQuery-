@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form class="form" action="">
+                    <div class="form1">
+                        <label class="login-label" for="">Email or phone</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="form2">
+                        <label class="login-label" for="">Password</label> <br>
+                        <input type="text">
+                    </div>
+                    <div class="form3">
+                        <input class="sub-btn" type="Submit"value="login">
+                        <a class="rr" href="forgotten.html">forgot Password</a>
+                    </div>   
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <div class="left">
+                    <p class="para">Facebook helps you connect and share with the<br> people in your life.</p>
+                    <img class="image" src="steffn.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="right">
+                    <h1>Create an account</h1>
+                    <p>It's quick and easy.</p>
+                    <form class="signup-form" id="signup-form" action="">
+                        <input name="fname" class="field" type="text" placeholder="First name">
+                        <input name="sname" class="field" type="text" placeholder="Surname"><br>
+
+                        <input name="emailAddress" class="field" type="email" placeholder="Mobile number or email address"><br>
+                        <input name="password" id="password" class="field" type="text" placeholder="New password"><br>  
+                        <input name="confirmPassword" id="confirm" class="field" type="text" placeholder="Confirm password"><br>  
+
+                        <label for="">Birthday</label><br>
+
+                        <select name="day" id="">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <select name="month" id="">
+                            <option value="">Month</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <select name="year" id="">
+                            <option value="">Year</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                        </select>
+                        <br><label for="">Gender</label><br>
+                            <input name="gender" type="radio">
+                            <label for="">Female</label>
+                            <input name="gender" type="radio">
+                            <label for="">Male</label>
+                            <input name="gender" type="radio">
+                            <label for="">Custom</label><br>
+                            
+                            <p><input name="agree" type="radio">By clicking the sign up you agree to our Terms,Data policy <br> and cockie policy.You may receive SMS notification from <br> us and can pt out at any time.</p>
+                            <input class="submit"  type="submit" value="Sign Up">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
